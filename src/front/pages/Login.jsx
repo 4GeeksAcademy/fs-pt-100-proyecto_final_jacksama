@@ -12,7 +12,7 @@ export const Login = () => {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="password" className="form-label">PASSWORD</label>
-                    <input type="password" className="form-control" id="password" />
+                    <input type="password" className="form-control" id="password"/>
                 </div>
                 <div className="mb-3 form-check d-flex justify-content-between">
                     <div>
