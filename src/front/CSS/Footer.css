@@ -1,0 +1,6 @@
+.footer {
+    background: rgb(39, 39, 39);
+    font-family: Arial, sans-serif;
+    position: fixed; bottom: 0;
+    width: 100%;
+}
