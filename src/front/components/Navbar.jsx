@@ -2,11 +2,10 @@ import { Link } from "react-router-dom";
 import '../CSS/Navbar.css';
 
 export const Navbar = () => {
-	// Esto revisa si hay un token guardado
 	const isLoggedIn = !!localStorage.getItem("token");
 
 	return (
-		<nav className="navbar navbar-light bg-light">
+		<nav className="navbar navbar-light">
 			<div className="container">
 				<Link to="/">
 					<span className="navbar-brand mb-0 h1">LOGO</span>
