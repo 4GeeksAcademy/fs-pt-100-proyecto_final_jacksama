@@ -8,9 +8,8 @@ export const Navbar = () => {
 		<nav className="navbar navbar-light">
 			<div className="container">
 				<Link to="/">
-					<img
-						src="/logo.png" 
-						style={{ height: "60px" }}
+					<img className="navbar-logo"
+						src="/logo1.png"
 					/>
 				</Link>
 				<div className="ml-auto">

@@ -25,3 +25,7 @@
 .navbar {
     background-color: rgb(209, 230, 243);
 }
+
+.navbar-logo {
+    height: 60px;
+}
