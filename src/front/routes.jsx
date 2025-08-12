@@ -11,6 +11,9 @@ import { Single } from "./pages/Single";
 import { Demo } from "./pages/Demo";
 import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
+import { Frases } from "./components/Frases";
+import { Autores } from "./components/Autores";
+import { Aleatorias } from "./components/Aleatorias";
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -29,6 +32,9 @@ export const router = createBrowserRouter(
         <Route path="/demo" element={<Demo />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/frases" element={<Frases />} />
+        <Route path="/autores" element={<Autores />} />
+        <Route path="/aleatorias" element={<Aleatorias />} />
       </Route>
     )
 );
