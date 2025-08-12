@@ -28,4 +28,4 @@ export const Autores = () => {
           </div>
         </div>
     );
-};
+}; 
