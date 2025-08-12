@@ -1,0 +1,18 @@
+.autores-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  justify-items: center;
+  width: 100%;
+}
+
+.autores-title {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.autores-button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
