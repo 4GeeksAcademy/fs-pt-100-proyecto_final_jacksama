@@ -8,7 +8,10 @@ export const Navbar = () => {
 		<nav className="navbar navbar-light">
 			<div className="container">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">LOGO</span>
+					<img
+						src="/logo.png" 
+						style={{ height: "60px" }}
+					/>
 				</Link>
 				<div className="ml-auto">
 					<Link to="/" className="btn me-1">Inicio</Link>
