@@ -15,6 +15,7 @@ import { Frases } from "./components/Frases";
 import  Autores  from "./components/Autores";
 import { Aleatorias } from "./components/Aleatorias";
 import { UserA } from "./pages/UserA";
+import { UserG } from "./pages/UserG";
 import { Card } from "./components/Card";
 
 export const router = createBrowserRouter(
@@ -38,6 +39,7 @@ export const router = createBrowserRouter(
         <Route path="/autores" element={<Autores />} />
         <Route path="/aleatorias" element={<Aleatorias />} />
         <Route path="/userA" element={<UserA />} />
+        <Route path="/userG" element={<UserG />} />
         <Route path="/card" element={<Card />} />
       </Route>
     )
