@@ -12,8 +12,10 @@ import { Demo } from "./pages/Demo";
 import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
 import { Frases } from "./components/Frases";
-import { Autores } from "./components/Autores";
+import  Autores  from "./components/Autores";
 import { Aleatorias } from "./components/Aleatorias";
+import { UserA } from "./pages/UserA";
+import { Card } from "./components/Card";
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -35,6 +37,8 @@ export const router = createBrowserRouter(
         <Route path="/frases" element={<Frases />} />
         <Route path="/autores" element={<Autores />} />
         <Route path="/aleatorias" element={<Aleatorias />} />
+        <Route path="/userA" element={<UserA />} />
+        <Route path="/card" element={<Card />} />
       </Route>
     )
 );

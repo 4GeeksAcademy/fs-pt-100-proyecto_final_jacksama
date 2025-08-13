@@ -1,8 +1,7 @@
 import React, { useEffect } from "react"
-import rigoImageUrl from "../assets/img/rigo-baby.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 import { Frases } from "../components/Frases.jsx";
-import { Autores } from "../components/Autores.jsx";
+import  Autores  from "../components/Autores.jsx";
 import { Aleatorias } from "../components/Aleatorias.jsx";
 
 export const Home = () => {

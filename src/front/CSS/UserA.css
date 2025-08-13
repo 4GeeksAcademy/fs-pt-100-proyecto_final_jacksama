@@ -1,0 +1,46 @@
+.userA-container {
+  margin-top: 40px;
+  background-color: white;
+}
+
+.userA-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.userA-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 15px;
+}
+
+.userA-container1 {
+  margin-bottom: 20px;
+  background-color: rgb(247, 223, 8);
+  display: flex;
+  max-width: 70%;
+  justify-content: center;
+}
+
+.userA-container2 {
+  margin-bottom: 20px;
+  background-color: rgb(219, 198, 7);
+  display: flex;
+  margin-left: 30%;
+  max-width: 100%;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.card {
+  display: flex;
+  margin: 10px;
+}
+
+.userA-container3 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

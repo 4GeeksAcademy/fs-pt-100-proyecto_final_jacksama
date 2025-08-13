@@ -1,0 +1,21 @@
+.card{
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+.card-content {
+    color: gray;
+}
+
+.card-autor {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-genero {
+    font-size: 14px;
+}

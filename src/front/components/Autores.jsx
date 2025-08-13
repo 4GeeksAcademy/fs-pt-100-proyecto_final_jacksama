@@ -4,7 +4,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-export default function Autores({ autores, setAutorSeleccionado }) {
+export default function Autores ({ autores, setAutorSeleccionado }) {
 
   return (
     <div className="autores-container">
@@ -22,7 +22,6 @@ export default function Autores({ autores, setAutorSeleccionado }) {
         ))}
       </div>
 
-      {/* Carrusel Bootstrap */}
       <div
         id="carouselExampleInterval"
         className="carousel slide"
