@@ -13,27 +13,69 @@ export const UserA = () => {
                 <h1 className="userA-subtitle">MIS AUTORES</h1>
             </div>
             <div className="container userA-container3">
-                <div className="row g-4">
-                    <div className="col-md-4">
-                        <Card />
+                <div id="authorsCarousel" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#authorsCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#authorsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     </div>
-                    <div className="col-md-4">
-                        <Card />
+
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <div className="row g-4 justify-content-center">
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <div className="row g-4 justify-content-center">
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <Card />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-md-4">
-                        <Card />
-                    </div>
-                    <div className="col-md-4">
-                        <Card />
-                    </div>
-                    <div className="col-md-4">
-                        <Card />
-                    </div>
-                    <div className="col-md-4">
-                        <Card />
-                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#authorsCarousel" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#authorsCarousel" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
     );
-}; 
+};

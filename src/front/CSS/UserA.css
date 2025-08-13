@@ -44,3 +44,21 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* Personalizar controles del carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* Personalizar indicadores */
+.carousel-indicators button {
+    background-color: #007bff;
+}
+
+/* Espaciado del carousel */
+.carousel-inner {
+    padding: 20px 0;
+}
