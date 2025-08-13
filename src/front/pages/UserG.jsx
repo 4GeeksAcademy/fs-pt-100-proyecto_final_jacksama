@@ -1,18 +1,18 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../CSS/UserA.css';
+import '../CSS/UserG.css';
 import { Card } from '../components/Card';
 
-export const UserA = () => {
+export const UserG = () => {
     return (
-        <div className="userA-container">
-            <div className="userA-container1">
-                <h1 className="userA-title">MIS FRASES DE</h1>
+        <div className="userG-container">
+            <div className="userG-container1">
+                <h1 className="userG-title">MIS FRASES DE</h1>
             </div>
-            <div className="userA-container2">
-                <h1 className="userA-subtitle">AUTORES</h1>
+            <div className="userG-container2">
+                <h1 className="userG-subtitle">GENERO</h1>
             </div>
-            <div className="container userA-container3">
+            <div className="container userG-container3">
                 <div id="authorsCarousel" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#authorsCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
